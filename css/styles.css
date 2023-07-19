@@ -3,6 +3,7 @@ body {
     color: var(--brand-text-cl);
     background-color: var(--white-cl);
 }
+
 :root{
 --brand-text-cl: #434455;
 --white-cl:  #FFF;
@@ -12,11 +13,52 @@ body {
 --light-cl: #E7E9FC;
 --second-light-cl: #F4F4FD;
 --description-cl: #2E2F42;
+}
 
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.container {
+max-width: 1158px;
+padding: 0 15px;
+margin: 0 auto;
 }
 
 .header {
 background:var(--white-cl);
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
+padding-top: 24px;
+padding-bottom: 24px;
+display: flex;
 }
 
 .logo {
@@ -28,16 +70,19 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 font-family: Raleway, sans-serif;
 text-decoration: none;
+width: 44px;
+padding-right: 76px;
 
 }
 
 .logo-special {
-    color: var(--navyblue-cl);
-    font-size: 18px;
-    font-weight: 800;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+color: var(--navyblue-cl);
+font-size: 18px;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+width: 71px;
 }
 .link {
 text-decoration: none;
@@ -49,6 +94,8 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 list-style-type: none;
+padding: 24px 40px;
+gap: 40px;
 }
 
 .link:hover,.link:focus {
@@ -74,6 +121,8 @@ letter-spacing: 0.02em;
 }
 .address {
     font-style: normal;
+    gap: 40px;
+    justify-content: flex-end;
 }
 .address-menu-list {
 list-style-type: none;
@@ -86,16 +135,22 @@ letter-spacing: 0.02em;
 color: var(--brand-text-cl);
 
 }
-.order {
+.solution {
 background: var(--navyblue-cl);
+width: 1440px;
+height: 600px;
+flex-shrink: 0;
+padding: 188px 472px 292px 472px;
 }
-.order-title {
+.solution-title {
 color: var(--white-cl);
 text-align: center;
 font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+width: 496px;
+text-align: center;
 }
 
 .service-btn {
@@ -107,6 +162,13 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+display: inline-flex;
+padding: 16px 32px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 4px;
+margin-top: 48px;
+margin-bottom: 188px;
 }
 
 .paragraph-subtitle {
