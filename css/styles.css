@@ -282,6 +282,7 @@ background: var(--white-cl);
 margin-left: 24px;
 margin-right: 24px;
 align-items: center;
+border-radius: 0px 0px 4px 4px;
 }
 
 .team-subtitle {
@@ -298,7 +299,7 @@ text-align: center;
     text-align: center;
 }
 .team-picture {
-border-radius: 0px 0px 4px 4px;
+
 }
 .container-team {
     padding: 32px 0;
@@ -412,13 +413,14 @@ margin-bottom: 16px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3); 
 }
 .service-link {
     width: 360px;
 height: 300px;
 margin-bottom: 72px;
 flex-shrink: 0;
-width: calc((100% - 48px) / 3); 
+
 }
 .service-container {
     padding: 32px 16px;
