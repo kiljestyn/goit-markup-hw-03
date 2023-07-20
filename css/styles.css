@@ -391,7 +391,7 @@ background: var(--white-cl);
 padding-bottom: 48px;
 padding-right: 24px;
 border-bottom: solid var(--cornflower);
-
+width: calc((100% - 48px) / 3);
 }
 
 .service-subtitle {
@@ -413,7 +413,6 @@ margin-bottom: 16px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    width: calc((100% - 48px) / 3); 
 }
 .service-link {
     width: 360px;
