@@ -175,6 +175,7 @@ margin:  0 auto 48px auto;
 width: 496px;
 align-items: center;
 gap: 48px;
+max-width: 496px;
 }
 .solution-container {
 
