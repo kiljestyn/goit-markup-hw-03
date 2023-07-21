@@ -99,6 +99,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 width: 71px;
+gap: 76px;
 }
 .link {
 text-decoration: none;
@@ -170,12 +171,15 @@ font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
-
+margin: 0 auto;
 width: 496px;
 align-items: center;
+gap: 48px;
 }
 .solution-container {
-    align-items: center;   
+
+
+
 }
 .service-btn {
 font-family: inherit;
@@ -188,13 +192,14 @@ letter-spacing: 0.04em;
 cursor: pointer;
 display: block;
 padding: 16px 32px;
-gap: 10px;
 border-radius: 4px;
 margin-top: 48px;
 padding: 16px 32px;
 min-width: 169px;
 border: none;
 align-items: center;
+margin: 0 auto;
+
 }
 
 .paragraph-menu {
