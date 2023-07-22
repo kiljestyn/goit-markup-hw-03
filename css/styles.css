@@ -60,7 +60,6 @@ display: flex;
 }
 .header {
 background:var(--white-cl);
-width: 1440px;
 flex-shrink: 0;
 justify-content: center;
 align-items: center;
@@ -159,9 +158,10 @@ color: var(--brand-text-cl);
 }
 .solution {
 background: var(--navyblue-cl);
-width: 1440px;
 flex-shrink: 0;
 padding: 188px 0;
+width: 1440px;
+margin: 0 auto;
 }
 .solution-title {
 color: var(--white-cl);
@@ -272,7 +272,6 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-top: 120px;
 margin-bottom: 72px;
 }
 
@@ -285,8 +284,6 @@ gap: 24px;
 }
 .team-menu-item {
 background: var(--white-cl);
-margin-left: 24px;
-margin-right: 24px;
 align-items: center;
 border-radius: 0px 0px 4px 4px;
 }
@@ -297,7 +294,6 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-top: 32px;
 margin-bottom: 8px;
 text-align: center;
 }
@@ -313,7 +309,6 @@ text-align: center;
 }
 .footer {
 background: var(--description-cl);
-width: 1440px;
 flex-shrink: 0;
 padding: 100px 0;
 }
@@ -324,7 +319,6 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 width: 264px;
-margin-top: 16px;
 max-width: 264px;
 }
 
@@ -341,7 +335,7 @@ color: var(--second-light-cl);
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
     text-decoration: none;
-    padding-top: 100px;
+    
     
     display: inline-block;
     margin-bottom: 16px;
@@ -392,7 +386,6 @@ border: 1px solid transparent;
 }
 .btn-item {
     display: flex;
-    padding: 12px 24px;
     align-items: flex-start;
     border: none;
 }
@@ -407,10 +400,7 @@ border: 1px solid transparent;
 }
 .service-menu-item {
 background: var(--white-cl);
-
-padding-bottom: 48px;
-padding-right: 24px;
-border-bottom: solid var(--cornflower);
+/*border-bottom: solid var(--cornflower);*/
 width: calc((100% - 48px) / 3);
 }
 
@@ -421,12 +411,11 @@ font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
 text-decoration: none;
-margin-top: 32px;
 margin-bottom: 8px;
 }
 .service-item-text {
 text-decoration: none;
-margin-bottom: 16px;
+
 }
 .service-menu-list {
     display: flex;
